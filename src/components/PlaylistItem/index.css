@@ -1,0 +1,45 @@
+.track-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.img-and-details-card {
+  display: flex;
+  align-items: center;
+}
+.name-genre-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.duration-and-btn-card {
+  display: flex;
+  align-items: center;
+}
+.track-img {
+  height: 80px;
+  margin-right: 20px;
+}
+.name {
+  margin: 0px;
+  color: #ffffff;
+}
+.genre {
+  color: #3b82f6;
+  margin-bottom: 0px;
+}
+.duration {
+  color: #ffffff;
+  margin: 0px;
+}
+.dlt-btn {
+  border: none;
+  background-color: transparent;
+  color: #ffffff;
+  margin-left: 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
